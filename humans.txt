@@ -1,0 +1,23 @@
+# TEAM
+
+Designer & Developer: Shawna Guy
+Site: http://shawnaguydesign.ca
+Email: contact@shawnaguydesign.ca
+Behance: behance.net/ShawnaGuy
+Twitter: @Shawna_Guy
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Slideshow from some Person <http://slideshow.com>
+Big image © Another person <http://example.com>
+
+---
+
+# TECHNOLOGY
+
+- Sublime Text
+- GitHub
+- Hover.com
