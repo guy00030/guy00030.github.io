@@ -1,0 +1,67 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: normal 100%/1.5; 
+	font-family:'Playfair Display', serif;
+	background-color: #e2e2e1;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+nav {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	padding-top: 2rem;
+}
+
+nav a,
+nav a:visited,
+nav a:link, {
+	text-decoration: none;
+}
+
+
+ul {
+	padding: 0;
+}
+
+.media {
+	overflow: hidden;
+}
+
+.media-img {
+	float: left;
+	margin: 0 10px 0 2rem;
+}
+
+.media-img-reversed {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+.media-img-stacked {
+	float: none;
+	margin: 0 0 10px;
+}
+
+.media-body {
+	overflow: hidden;
+}
+
+.media-title {
+	text-align: center;
+	margin: 0;
+	font-size: 1rem;
+	font-weight: bold;
+}
