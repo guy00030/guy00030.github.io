@@ -55,11 +55,13 @@ nav {
     font-size: .5rem;
     padding: 0;
     text-align: center;
+    width: 100%;
 }
 
 nav ul {
 	margin: 0;
 	text-align: center;
+	padding: 0;
 }
 
 nav a,
