@@ -239,6 +239,9 @@ li {
 }
 
 @media only screen and (min-width: 100em){
+	.home {
+		padding: 1.5rem;
+	}
 }
 
 /* Largest screen size */
@@ -250,6 +253,10 @@ li {
 
 	nav {
 		font-size: 1.75rem;
+	}
+
+	.home {
+		padding: 1.5rem;
 	}
 
 	.card {
@@ -274,6 +281,9 @@ li {
 }
 
 @media only screen and (min-width: 38.25em){
+		.home {
+		padding: 1.5rem;
+	}
 
 }
 
@@ -283,6 +293,6 @@ li {
 	}
 
 	.home {
-		padding: 1rem;
+		padding: 1.5rem;
 	}
 }
