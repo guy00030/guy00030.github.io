@@ -23,7 +23,7 @@ body {
 .logo {
 	display: block;
 	margin: 0 auto;
-	width: 90%;
+	width: 30%;
 }
 
 p {
@@ -301,6 +301,6 @@ li {
 	}
 
 	.logo {
-		width: 50%;
+		width: 90%;
 	}
 }
