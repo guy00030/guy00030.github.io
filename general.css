@@ -41,7 +41,7 @@ h2 {
 }
 
 header {
-
+	position: absolute;
 }
 
 nav {
@@ -93,7 +93,7 @@ a:hover {
 
 .home {
 	background-color: #322925;
-	padding: 0;
+	padding: 2;
 }
 
 .contact {
