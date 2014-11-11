@@ -90,7 +90,7 @@ a:hover {
 
 .home {
 	background-color: #322925;
-	padding: 1.5rem;
+	padding-top: 1.5rem;
 }
 
 .contact {
@@ -240,7 +240,7 @@ li {
 
 @media only screen and (min-width: 100em){
 	.home {
-		padding: 1.5rem;
+		padding-top: 10rem;
 	}
 }
 
@@ -256,7 +256,7 @@ li {
 	}
 
 	.home {
-		padding: 1.5rem;
+		padding-top: 1.5rem;
 	}
 
 	.card {
@@ -281,8 +281,8 @@ li {
 }
 
 @media only screen and (min-width: 38.25em){
-		.home {
-		padding: 1.5rem;
+	.home {
+		padding-top: 1.5rem;
 	}
 
 }
@@ -293,6 +293,10 @@ li {
 	}
 
 	.home {
-		padding: 1.5rem;
+		padding-top: 1.5rem;
+	}
+
+	.logo {
+		width: 50%;
 	}
 }
