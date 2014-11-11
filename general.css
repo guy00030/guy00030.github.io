@@ -1,22 +1,153 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+/* Yellow: #eeba51 */
+
+html {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	font: normal 100%/1.5; 
 	font-family:'Playfair Display', serif;
-	background-color: #e2e2e1;
 }
 
 .logo {
 	display: block;
 	margin: 0 auto;
-	width: 40%;
-	padding-top: 4rem;
-	padding-bottom: 4rem;
+	width: 30%;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2 {
+	font-size: 3rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
 }
 
 nav {
     list-style-type: none;
-    text-align: center;
+    text-align: right;
+    text-decoration: none;
+    padding-right: 5rem;
+    font-family:'Playfair Display', serif;
+    font-size: 1rem;
+    position: absolute;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav a,
+nav a:link,
+nav a:visited,
+nav a:hover {
+	text-decoration: none;
+}
+
+a:link {
+    color: #E2E2E1;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+a:visited {
+    color: #E2E2E1;
+}
+
+a:hover {
+    color: #eeba51;
+}
+
+.work {
+	background-color: #606161;
+	padding: 0;
+}
+
+.home {
+	background-color: #322925;
+	padding: 0;
+}
+
+.contact {
+	background-color: #eeba51;
+}
+
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+.social{ 
+	position: fixed;
+	right: 0;
+	padding-right: 1rem;
+	z-index: 10000;
+}
+
+.hide-text{
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.social a,
+.social a:link,
+.social a:visited {
+	display:block;
+	
+	width: 50px;
+	height: 50px;
+	margin: 1rem 0 1rem 1rem;
+	text-align: center;
+	padding: 0.5rem;
+	margin-right: 1rem;
+	
+	-webkit-border-radius: 30px;
+	-mox-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	
+	color: #000;
+	
+	/*background-color: #222; */
+	-webkit-box-shadow: inset 0px 0px 0px 40px #E2E2E1;
+	-moz-box-shadow: inset 0px 0px 0px 40px #E2E2E1;
+	-ms-box-shadow: inset 0px 0px 0px 40px #E2E2E1;
+	-o-box-shadow: inset 0px 0px 0px 40px #E2E2E1;
+	box-shadow: inset 0px 0px 0px 40px #E2E2E1;
+}
+
+.social a:hover,
+.social a:active,
+.social a:focus{
+	-webkit-box-shadow: inset 0px 0px 0px 3px #eeba51;
+	-moz-box-shadow: inset 0px 0px 0px 3px #eeba51;
+	-ms-box-shadow: inset 0px 0px 0px 3px #eeba51;
+	-o-box-shadow: inset 0px 0px 0px 3px #eeba51;
+	box-shadow: inset 0px 0px 0px 3px #eeba51;
+	
+	color: #eeba51;
 }
 
 li {
@@ -25,19 +156,48 @@ li {
 	padding-top: 2rem;
 }
 
-nav a,
-nav a:visited,
-nav a:link, {
-	text-decoration: none;
+.card {
+	margin: 0 auto;
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	/* 
+	-ms-animation
+	-moz-animation
+	-o-animation
+	*/
+	-webkit-animation: slide-up 2000ms linear;
+/* overflow: when temporarily removing an objects visibility */
 }
 
-
-ul {
-	padding: 0;
+.card img {
+	display: block;
+	width: 100%;
 }
+
+.text {
+	background-color: #000;
+	color: #fff;
+	padding: 2em;
+	width: 100%;
+	position: absolute;
+	bottom: 0em;
+	opacity: 0;
+	top: 0;
+	transition: all 350ms linear;
+}
+
+.card:hover .text {
+	opacity: 1;
+}
+
 
 .media {
 	overflow: hidden;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 .media-img {
@@ -62,6 +222,51 @@ ul {
 .media-title {
 	text-align: center;
 	margin: 0;
-	font-size: 1rem;
+	font-size: 2rem;
 	font-weight: bold;
+}
+
+.why {
+	background-color: #eeba51;
+}
+
+@media only screen and (min-width: 100em){
+}
+
+@media only screen and (min-width: 30em){
+}
+
+@media only screen and (min-width: 38.25em){
+}
+
+/* Largest screen size */
+@media only screen and (min-width: 53.25em){
+
+	.logo {
+		width: 90%;
+	}
+
+	nav {
+		font-size: 1.75rem;
+	}
+
+	.card {
+	margin: 0 auto;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	/* 
+	-ms-animation
+	-moz-animation
+	-o-animation
+	*/
+	-webkit-animation: slide-up 2000ms linear;
+/* overflow: when temporarily removing an objects visibility */
+}
+
+.card img {
+	display: block;
+	width: 100%;
+}
 }
