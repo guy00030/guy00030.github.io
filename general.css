@@ -90,7 +90,7 @@ a:hover {
 
 .home {
 	background-color: #322925;
-	padding-top: 1.5rem;
+	padding-top: 10rem;
 }
 
 .contact {
@@ -292,9 +292,7 @@ li {
 		float: right;
 	}
 
-	.home {
-		padding-top: 10rem;
-	}
+	
 
 	.logo {
 		width: 50%;
