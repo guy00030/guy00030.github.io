@@ -107,7 +107,6 @@ a:hover {
 
 .social{ 
 	text-align: center;
-	padding-right: 2rem;
 	z-index: 10000;
 }
 
@@ -240,7 +239,7 @@ li {
 
 @media only screen and (min-width: 100em){
 	.home {
-		padding-top: 10rem;
+		padding-top: 1.5rem;
 	}
 
 	.logo {
@@ -294,6 +293,7 @@ li {
 @media only screen and (min-width: 30em){
 	.social {
 		float: right;
+		padding-right: 2rem;
 	}
 
 	.nav {
