@@ -242,6 +242,10 @@ li {
 	.home {
 		padding-top: 10rem;
 	}
+
+	.logo {
+		width: 100%;
+	}
 }
 
 /* Largest screen size */
@@ -292,7 +296,9 @@ li {
 		float: right;
 	}
 
-	
+	.nav {
+		float: left;
+	}
 
 	.logo {
 		width: 50%;
