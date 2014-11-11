@@ -301,10 +301,14 @@ li {
 		padding-right: 2rem;
 	}
 
-	.nav {
+	nav {
 		float: left;
 		text-align: left;
 		width: 50%;
+	}
+
+	nav ul {
+		text-align: left;
 	}
 
 	.logo {
