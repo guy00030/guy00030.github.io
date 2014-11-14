@@ -93,6 +93,10 @@ a:hover {
 	padding: 0;
 }
 
+.why {
+	text-align: center;
+}
+
 .home {
 	background-color: #322925;
 	padding-top: 10rem;
@@ -208,13 +212,14 @@ li {
 
 .media {
 	overflow: hidden;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	display: inline-block;
+	margin: 0 auto;
 }
 
 .media-img {
+	width: 20%;
 	float: left;
-	margin: 0 10px 0 2rem;
+	padding-right: 1rem;
 }
 
 .media-img-reversed {
@@ -229,6 +234,8 @@ li {
 
 .media-body {
 	overflow: hidden;
+	text-align: center;
+	float: right;
 }
 
 .media-title {
