@@ -20,6 +20,12 @@ body {
 	padding: 0;
 }
 
+footer {
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+}
+
 .logo {
 	display: block;
 	margin: 0 auto;
@@ -38,6 +44,13 @@ h2 {
 	font-size: 3rem;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+}
+
+h3 {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	padding: 0;
 }
 
 header {
@@ -323,5 +336,5 @@ li {
 		width: 90%;
 	}
 
-	
+
 }
