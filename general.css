@@ -54,6 +54,12 @@ h3 {
 	margin: 0;
 }
 
+h4 {
+	font-family:'Playfair Display', serif;
+	font-size: .75rem;
+	color: #fff;
+}
+
 header {
 	position: fixed;
 	z-index: 10000;
