@@ -114,8 +114,8 @@ a:hover {
 }
 
 .why {
-	text-align: center;
 	padding: 0;
+	text-align: center;
 }
 
 .home {
@@ -235,6 +235,7 @@ li {
 	overflow: hidden;
 	display: inline-block;
 	margin: 0 auto;
+	text-align: left;
 }
 
 .media-img {
@@ -259,7 +260,6 @@ li {
 
 .media-body {
 	overflow: hidden;
-	text-align: center;
 	float: right;
 	width: 80%;
 }
