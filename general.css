@@ -239,8 +239,7 @@ li {
 
 .media-img {
 	width: 20%;
-	float: left;
-	padding-right: 1rem;
+	padding-right: 1.5rem;
 }
 
 .media-img-reversed {
