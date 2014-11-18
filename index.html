@@ -205,4 +205,23 @@
 <script src="js/main.js"></script>
 <script src="magnific-popup/jquery.magnific-popup.js"></script> 
 
+<script>
+$(function() {
+$(".rslides").responsiveSlides({
+timeout: 2500
+});
+});
+
+if(Modernizr.touch){
+$(".piece").on("click",function(){
+$(this).toggleClass("touched");
+});
+$(".work__info").on("click",function(e){
+e.stopPropagation();
+$(this).parent().removeClass("touched");
+});
+}
+
+</script>
+
 </html>
