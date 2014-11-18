@@ -239,7 +239,12 @@ li {
 
 .media-img {
 	width: 20%;
+	float: left;
 	padding-right: 1.5rem;
+}
+
+.media-img img {  
+	width: 100%;
 }
 
 .media-img-reversed {
@@ -256,6 +261,7 @@ li {
 	overflow: hidden;
 	text-align: center;
 	float: right;
+	width: 80%;
 }
 
 .media-title {
