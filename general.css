@@ -29,7 +29,7 @@ footer {
 .logo {
 	display: block;
 	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 }
 
 p {
@@ -89,15 +89,13 @@ nav a:link,
 nav a:visited,
 nav a:hover {
 	text-decoration: none;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-family: 'Lato', sans-serif;
 	padding-top: 0;
 }
 
 a:link {
     color: #E2E2E1;
-    padding-right: .5rem;
-    padding-left: .5rem;
 }
 
 a:visited {
@@ -106,6 +104,17 @@ a:visited {
 
 a:hover {
     color: #eeba51;
+}
+
+nav a {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.logo-sm {
+	text-align: left;
+	display: inline-block;
+	width: 50px;
 }
 
 .work {
@@ -120,11 +129,12 @@ a:hover {
 
 .home {
 	background-color: #322925;
-	padding-top: 10rem;
+	padding-top: 8rem;
+	padding-bottom: 2rem;
 }
 
 .contact {
-	background-color: #eeba51;
+	background-color: #000;
 }
 
 .ease-all{
@@ -140,6 +150,12 @@ a:hover {
 	z-index: 10000;
 }
 
+.social-bottom {
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+}
+
 .hide-text{
 	display: block;
 	text-indent: 100%;
@@ -149,7 +165,10 @@ a:hover {
 
 .social a,
 .social a:link,
-.social a:visited {
+.social a:visited
+.social-bottom a,
+.social-bottom a:link,
+.social-bottom a:visited  {
 	display: inline-block;
 	
 	width: 30px;
@@ -176,7 +195,10 @@ a:hover {
 
 .social a:hover,
 .social a:active,
-.social a:focus{
+.social a:focus,
+.social-bottom a:hover,
+.social-bottom a:active,
+.social-bottom a:focus{
 	-webkit-box-shadow: inset 0px 0px 0px 3px #eeba51;
 	-moz-box-shadow: inset 0px 0px 0px 3px #eeba51;
 	-ms-box-shadow: inset 0px 0px 0px 3px #eeba51;
@@ -196,7 +218,7 @@ li {
 .card {
 	margin: 0 auto;
 	width: 100%;
-	float: left;
+	xfloat: left;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -212,6 +234,11 @@ li {
 .card img {
 	display: block;
 	width: 100%;
+}
+
+.card-link {
+	display: block;
+	padding: 0;
 }
 
 .text {
@@ -227,7 +254,7 @@ li {
 }
 
 .card:hover .text {
-	opacity: 1;
+	opacity: .8;
 }
 
 
@@ -239,13 +266,15 @@ li {
 }
 
 .media-img {
-	width: 20%;
-	float: left;
-	padding-right: 1.5rem;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .media-img img {  
 	width: 100%;
+	float: center;
+	margin: 0 auto;
 }
 
 .media-img-reversed {
@@ -260,78 +289,32 @@ li {
 
 .media-body {
 	overflow: hidden;
-	float: right;
+	margin: 0 auto;
 	width: 80%;
+	font-size: 1.25rem;
 }
 
 .media-title {
 	text-align: center;
-	margin: 0;
-	font-size: 2rem;
-	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+	display: block;
 }
 
 .why {
 	background-color: #eeba51;
 }
 
-@media only screen and (min-width: 100em){
-	.home {
-		padding-top: 1.5rem;
-	}
-
-	.logo {
-		width: 100%;
-	}
-}
-
-/* Largest screen size */
-@media only screen and (min-width: 53.25em){
-
-	.logo {
-		width: 90%;
-	}
-
-	nav {
-		font-size: 1.75rem;
-	}
-
-	.home {
-		padding-top: 1.5rem;
-	}
-
-	.card {
-	margin: 0 auto;
-	float: left;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-	/* 
-	-ms-animation
-	-moz-animation
-	-o-animation
-	*/
-	-webkit-animation: slide-up 2000ms linear;
-/* overflow: when temporarily removing an objects visibility */
-}
-
-.card img {
-	display: block;
-	width: 100%;
-}
-}
-
-@media only screen and (min-width: 38.25em){
-	.home {
-		padding-top: 1.5rem;
-	}
-
-}
-
+/*Smallest screen size*/
 @media only screen and (min-width: 30em){
+
 	.social {
 		float: right;
 		padding-right: 2rem;
+	}
+
+	.social-bottom {
+		text-align: center;
+		margin: 0 auto;
 	}
 
 	nav {
@@ -347,7 +330,83 @@ li {
 
 	.logo {
 		width: 90%;
+		padding-right: 0;
+		padding-left: 0;
 	}
 
+	.media-img {
+		width: 20%;
+	}
 
+	.home {
+		padding-top: 5rem;
+	}
+}
+
+/* Medium screen size */
+@media only screen and (min-width: 38.25em){
+	.home {
+		padding-top: 5rem;
+	}
+
+	.logo {
+		width: 50%;
+	}
+
+}
+
+/* Large screen size */
+@media only screen and (min-width: 53.25em){
+
+	nav {
+		font-size: 1.75rem;
+	}
+
+	.logo {
+		width: 30%;
+		padding-top: 0;
+
+	}
+
+	.home {
+		padding-top: 2rem;
+	}
+
+	.media-title {
+		width: 70%;
+		text-align: center;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.card {
+		margin: 0 auto;
+		xfloat: left;
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+	/* 
+	-ms-animation
+	-moz-animation
+	-o-animation
+	*/
+	-webkit-animation: slide-up 2000ms linear;
+/* overflow: when temporarily removing an objects visibility */
+}
+
+.card img {
+	display: block;
+	width: 100%;
+}
+}
+
+/* XLarge screens */
+@media only screen and (min-width: 100em){
+	.home {
+		padding-top: 1.5rem;
+	}
+
+	.logo {
+		width: 60%;
+	}
 }
