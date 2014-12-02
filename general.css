@@ -335,7 +335,7 @@ li {
 	}
 
 	.media-img {
-		width: 20%;
+		width: 50%;
 	}
 
 	.home {
@@ -343,13 +343,17 @@ li {
 	}
 }
 
-/* Medium screen size */
+/* Medium screen size - Tablet*/
 @media only screen and (min-width: 38.25em){
 	.home {
 		padding-top: 5rem;
 	}
 
 	.logo {
+		width: 50%;
+	}
+
+	.media-img {
 		width: 50%;
 	}
 
@@ -379,9 +383,20 @@ li {
 		padding-bottom: 2rem;
 	}
 
+	.media-body {
+		width: 40%;
+	}
+
+	.why-img {
+		width: 50%;
+	}
+
+	.media-img {
+		width: 40%;
+	}
+
 	.card {
 		margin: 0 auto;
-		xfloat: left;
 		position: relative;
 		overflow: hidden;
 		text-align: center;
@@ -409,4 +424,5 @@ li {
 	.logo {
 		width: 60%;
 	}
+}
 }
