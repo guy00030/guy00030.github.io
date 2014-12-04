@@ -90,7 +90,7 @@ nav a:visited,
 nav a:hover {
 	text-decoration: none;
 	font-size: 1rem;
-	font-family: 'Lato', sans-serif;
+	  
 	padding-top: 0;
 }
 
@@ -123,12 +123,14 @@ nav a {
 }
 
 .why {
+	background-image: url("images/bkg2.JPG");
 	padding: 0;
 	text-align: center;
 }
 
 .home {
-	background-color: #322925;
+	/*background-color: #322925;*/
+	background-image: url("images/bkg.JPG");
 	padding-top: 8rem;
 	padding-bottom: 2rem;
 }
@@ -292,6 +294,7 @@ li {
 	margin: 0 auto;
 	width: 80%;
 	font-size: 1.25rem;
+	padding-bottom: 3rem;
 }
 
 .media-title {
@@ -301,7 +304,9 @@ li {
 }
 
 .why {
-	background-color: #eeba51;
+	/*background-color: #eeba51;*/
+	opacity: 30%;
+	width: 100%;
 }
 
 /*Smallest screen size*/
