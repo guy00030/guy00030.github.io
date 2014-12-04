@@ -10,7 +10,7 @@
 	body { width: 100%; }
 
 	img {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		text-align: center;
 		padding: 0;
@@ -27,13 +27,38 @@
 		}
 	}
 
+	@media only screen and (min-width: 40.063em) { 
+		img {
+			width: 90%;
+		}
+
+		.box {
+			margin: 0 auto;
+			text-align: center;
+		}
+	}
+
+	@media only screen and (min-width: 64.063em){
+		
+		img {
+			width: 55%;
+		}
+
+		.box {
+			margin: 0 auto;
+			text-align: center;
+		}
+	}
+
   </style>
 </head>
 <body>
 
 	<h1>404 Error - File Not Found </h1>
 
+<div class="box">
 	<a href="http://shawnaguydesign.ca"><img src="images/404.svg" alt="" width></a>
-	
+</div>
+
 </body>
 </html>
