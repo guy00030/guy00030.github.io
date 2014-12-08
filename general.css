@@ -52,6 +52,8 @@ h3 {
 	font-family:'Playfair Display', serif;
 	font-size: .75rem;
 	color: #fff;
+	display: block;
+	text-align: center;
 }
 
 header {
@@ -150,7 +152,7 @@ nav a {
 .social-bottom {
 	text-align: center;
 	margin: 0 auto;
-	display: inline-block;
+	display: block;
 }
 
 .hide-text{
