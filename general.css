@@ -32,13 +32,18 @@ footer {
 	width: 80%;
 }
 
+.inv {
+	position: absolute;
+	height: 0;
+	width: 0;
+}
+
 p {
 	font-family:'Playfair Display', serif;
 }
 
 h1 {
 	margin: 0;
-	visibility: none;
 }
 
 h2 {
