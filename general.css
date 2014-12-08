@@ -65,6 +65,7 @@ header {
 	z-index: 10000;
 	width: 100%;
 	background-color: #000;
+	opacity: .8;
 }
 
 nav {
@@ -384,8 +385,7 @@ li {
 	.media-title {
 		width: 70%;
 		text-align: center;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		padding-top: 1.5rem;
 	}
 
 	.media-body {
@@ -397,7 +397,7 @@ li {
 	}
 
 	.media-img {
-		width: 40%;
+		width: 30%;
 	}
 
 	.card {
