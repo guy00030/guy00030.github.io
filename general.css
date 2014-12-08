@@ -124,14 +124,14 @@ nav a {
 }
 
 .why {
-	background-image: url("images/bkg2.JPG");
+	background-color: #E2E2E1;
 	padding: 0;
 	text-align: center;
 }
 
 .home {
 	/*background-color: #322925;*/
-	background-image: url("images/bkg.JPG");
+	background-color: #232323;
 	padding-top: 8rem;
 	padding-bottom: 2rem;
 }
