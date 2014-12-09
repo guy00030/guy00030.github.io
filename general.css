@@ -238,6 +238,11 @@ li {
 .card-link {
 	display: block;
 	padding: 0;
+	margin: 0;
+}
+
+a.card-link {
+	padding: 0;
 }
 
 .text {
@@ -362,19 +367,6 @@ figure.effect-chico:hover p {
 	transform: scale(1);
 }
 
-@media screen and (max-width: 50em) {
-	.content {
-		padding: 0 10px;
-		text-align: center;
-	}
-	.grid figure {
-		display: inline-block;
-		float: none;
-		margin: 10px auto;
-		width: 100%;
-	}
-}
-
 /*Smallest screen size*/
 @media only screen and (min-width: 30em){
 
@@ -429,7 +421,6 @@ figure.effect-chico:hover p {
 	}
 
 }
-
 /* Large screen size */
 @media only screen and (min-width: 53.25em){
 
@@ -472,6 +463,17 @@ figure.effect-chico:hover p {
 		position: relative;
 		overflow: hidden;
 		text-align: center;
+
+	.content {
+		text-align: center;
+	}
+
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+	}
 	/* 
 	-ms-animation
 	-moz-animation
