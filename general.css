@@ -381,6 +381,8 @@ li {
 	.media-title {
 		width: 70%;
 		text-align: center;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 
 	.media-body {
@@ -389,6 +391,7 @@ li {
 
 	.why-img {
 		width: 50%;
+		padding-top: 0;
 	}
 
 	.media-img {
