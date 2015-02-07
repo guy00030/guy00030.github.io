@@ -1,10 +1,18 @@
 var $win = $(window);
-var $logo = $('.logo');
+var $logo = $('.logo-sm');
 
 /* $= JQuery object reminder */
 
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
+
+	 if(window.scrollY > 500) {
+      $('.hideme').slideDown();
+   }
+   else {
+      $('.fixedDiv').slideUp();
+   }
+},false);
 
 	/* console.log(scrollPos); < for debugging*/
 });
@@ -17,3 +25,6 @@ $(document).ready(function() {
   $('.work').magnificPopup({type:'image'});
 });
 */
+
+  
+
