@@ -32,6 +32,10 @@ footer {
 	width: 100%;
 }
 
+.hide {
+	display: none;
+}
+
 p {
 	font-family: 'Marck Script', cursive;;
 	font-size: 1.25rem;
@@ -129,7 +133,7 @@ nav a {
 
 .home {
 	/*background-color: #322925;*/
-	background-color: #fff;
+	background-color: #ECECEC;;
 	padding-top: 7.25rem;
 }
 
@@ -398,7 +402,7 @@ figure.effect-chico:hover p {
 	}
 
 	.logo {
-		width: 100%;
+		width: 70%;
 		padding-right: 0;
 		padding-left: 0;
 	}
@@ -415,7 +419,7 @@ figure.effect-chico:hover p {
 	}
 
 	.logo {
-		width: 100%;
+		width: 50%;
 	}
 
 	.media-img {
@@ -431,7 +435,7 @@ figure.effect-chico:hover p {
 	}
 
 	.logo {
-		width: 100%;
+		width: 35%;
 		padding-top: -1rem;
 
 	}
@@ -494,7 +498,7 @@ figure.effect-chico:hover p {
 	}
 
 	.logo {
-		width: 100%;
+		width: 20%;
 	}
 }
 }
