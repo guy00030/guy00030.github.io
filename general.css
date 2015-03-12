@@ -29,7 +29,7 @@ footer {
 .logo {
 	display: block;
 	margin: 0 auto;
-	width: 100%;
+	width: 88%;
 }
 
 .hide {
@@ -134,7 +134,7 @@ nav a {
 .home {
 	/*background-color: #322925;*/
 	background-color: #ECECEC;;
-	padding-top: 7.25rem;
+	padding-top: 3rem;
 }
 
 .contact {
@@ -152,7 +152,6 @@ nav a {
 .social{ 
 	text-align: center;
 	z-index: 10000;
-	padding-top: .75rem;
 }
 
 .social-bottom {
@@ -169,7 +168,7 @@ nav a {
 }
 
 .hideme {
-	opacity: 0;
+	display: none;
 }
 
 .social a,
@@ -312,7 +311,7 @@ a.card-link {
 	text-align: center;
 	margin: 0 auto;
 	display: block;
-	width: 40%;
+	width: 70%;
 }
 
 .why {
@@ -385,6 +384,10 @@ figure.effect-chico:hover p {
 		text-align: center;
 		margin: 0 auto;
 	}
+
+	.hideme {
+	display: inline;
+}
 
 	nav {
 		float: left;
